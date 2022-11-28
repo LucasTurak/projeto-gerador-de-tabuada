@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tabuada</title>
+</head>
+<body>
+    <h3>Resultados</h3>
+    
+    <script class="tabuada">
+        alert("Bem-vindo a calculadora de tabuada");
+
+        alert("Você pode definir qual tabuada quer saber, vou te exibir até a tabuada do 50!")
+        var tabuada = (parseFloat(prompt("Digite o número da tabuada:")))
+        var multiplicador = 1
+        
+
+        while (multiplicador <= 50){
+            document.write(tabuada+ " x " + multiplicador + " = " + ( tabuada * multiplicador ) + "<br> ")
+            multiplicador = multiplicador + 1
+
+        }
+
+        
+ 
+                
+            
+
+
+            /* CÓDIGO DESCARTADO - MANTIDO APENAS PARA FINS DE CONSULTA
+            document.write("1 x " + number + " = " + ( number*1) + '<br>');
+            document.write("2 x " + number + " = " + ( number*2) + '<br>');
+            document.write("3 x " + number + " = " + ( number*3) + '<br>');
+            document.write("4 x " + number + " = " + ( number*4) + '<br>');
+            document.write("5 x " + number + " = " + ( number*5) + '<br>');
+            document.write("6 x " + number + " = " + ( number*6) + '<br>');
+            document.write("7 x " + number + " = " + ( number*7) + '<br>');
+            document.write("8 x " + number + " = " + ( number*8) + '<br>');
+            document.write("9 x " + number + " = " + ( number*9) + '<br>');
+            document.write("10 x " + number + " = " + (number*10) + '<br>');
+            */
+            
+
+    </script>
+
+</body>
+</html>
